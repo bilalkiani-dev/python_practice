@@ -20,9 +20,9 @@
 
 
 # #calculate average of 3 numbers using function
-# x = int(input("Enter first number: "))
-# y = int(input("Enter Second number: "))
-# z = int(input("Enter third number: "))
+x = int(input("Enter first number: "))
+y = int(input("Enter Second number: "))
+z = int(input("Enter third number: "))
 
 # def calc_avg(a,b,c):
 #     average = (a+b+c)/3
