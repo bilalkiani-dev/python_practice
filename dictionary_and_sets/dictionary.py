@@ -84,3 +84,25 @@ new_student = {"CGPA": 3.00}    #storing cgpa in new dictionary
 student3.update(new_student)   # adding new_student dictionary values in previous student3 dictionary
 print(student3)
 
+
+
+#***********practice questions***********************8
+
+
+#stores words with meanings:
+dictionary = {
+    "cat": "a small animal",
+    "table": ["a piece of furniture", "list of facts and figures"]
+}
+print(dictionary)
+
+# write a program to store marks of subjects in dictionary,
+student_subjects = {}
+x = int(input("Enter marks of physics: "))
+student_subjects.update({"physics": x})
+x = int(input("Enter marks of urdu: "))
+student_subjects.update({"urdu": x})
+x = int(input("Enter marks of chemistry: "))
+student_subjects.update({"chemistry": x})
+
+print(student_subjects)
